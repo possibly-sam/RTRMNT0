@@ -53,7 +53,7 @@ account equity
 account revenue
 account revenue:wagesp
 account revenue:wagesg
-account revenue:socsecp
+account revenue:socsecp  ; 
 account revenue:socsecg
 account revenue:tkpensp
 account revenue:tkpensg
@@ -66,6 +66,11 @@ account expense:travel
 account expense:misc
 
 include socsecp.j
+
+2026-06-01  Init
+    assets:cash			   -£30000
+    equity
+
 
 2026-06-01  Init
     assets:closebrothers:12532369   -£117000

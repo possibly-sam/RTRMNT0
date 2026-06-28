@@ -3,11 +3,11 @@
 # assume 2650 per month starting at 62
 
 2026-06-01  In
-    revenue:socsecp   $31800
+    revenue:socsecp   $0
     cash
 
-2027-6-01  In
-    revenue:socsecp   $31800
+2027-06-01  In
+    revenue:socsecp   $0
     cash
 
 2028-06-01  In
@@ -22,7 +22,7 @@
     revenue:socsecp   $31800
     cash
 
-2031-6-01  In
+2031-06-01  In
     revenue:socsecp   $31800
     cash
 
@@ -46,7 +46,7 @@
     revenue:socsecp   $31800
     cash
 
-2037-6-01  In
+2037-06-01  In
     revenue:socsecp   $31800
     cash
 
@@ -62,7 +62,7 @@
     revenue:socsecp   $31800
     cash
 
-2041-6-01  In
+2041-06-01  In
     revenue:socsecp   $31800
     cash
 
@@ -102,7 +102,7 @@
     revenue:socsecp   $31800
     cash
 
-2051-6-01  In
+2051-06-01  In
     revenue:socsecp   $31800
     cash
 
@@ -126,7 +126,7 @@
     revenue:socsecp   $31800
     cash
 
-2057-6-01  In
+2057-06-01  In
     revenue:socsecp   $31800
     cash
 
@@ -142,7 +142,7 @@
     revenue:socsecp   $31800
     cash
 
-2061-6-01  In
+2061-06-01  In
     revenue:socsecp   $31800
     cash
 
