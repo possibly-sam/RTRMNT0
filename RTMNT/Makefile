@@ -6,6 +6,8 @@ SOURCE = RTMNT.cpp
 
 YEAR ?=2060
 CASH ?=cash
+BEGIN ?=2026
+END   ?=2060
 
 help:
 	@echo bal YEAR=2034            :  balance in year 2034
@@ -29,11 +31,11 @@ install:
 
 
 bal:
-	hledger -f data_/RTMNT.j balance  date:2026-01-01..$(YEAR)-12-25 --strict
+	hledger -f data_/RTMNT.j balance  date:$(BEGIN)-01-01..$(YEAR)-12-25 --strict -X $
 
 
 cash:  
-	hledger -f data_/RTMNT.j balance $(CASH)  --begin=2026-06-01 --end=$(YEAR)-12-25  --strict   -X $
+	hledger -f data_/RTMNT.j balance $(CASH)  --begin=$(BEGIN)-01-01 --end=$(YEAR)-12-31  --strict   -X $
 
 
 ccash:
@@ -41,3 +43,4 @@ ccash:
 	Rscript cash-plot.R
 
 # hledger -f data_/RTMNT.j balance $(CASH) date:2026-01-01..$(YEAR)-12-25 -X $ 
+

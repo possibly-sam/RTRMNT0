@@ -4,9 +4,11 @@
 # until house purchase in mid-2029
 # Then £4500 per month for property tax etc
 
+@error do not use.
+
 2026-06-01  In
     expenses:rent   £54000
-    cash
+    cashx
 
 2027-06-01  In
     expenses:rent   £54000

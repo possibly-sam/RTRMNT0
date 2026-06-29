@@ -15,10 +15,10 @@ cash_balances$Cash = round(cash_balances$Cash/1000)
 # Create a simple line plot
 png(filename="cash_balance_plot.png", width=800, height=600)
 
-plot(-Cash~Year, data=cash_balances);
+plot(-Cash~Year, data=cash_balances, main=paste(max(cash_balances$Cash)));
 
 # Add grid lines for better readability
-abline(h=0, col="gray", lty=2)
+abline(h=0, col="green", lty=2)
 grid()
 
 dev.off()

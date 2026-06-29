@@ -31,7 +31,7 @@ P 2026-06-26 $  ₹94.35
 
 account assets
 account assets:cash
-account assets:HL
+account assets:hl
 account assets:wellsfargo:2525
 account assets:wellsfargo:8340
 account assets:wellsfargo:5828
@@ -42,10 +42,12 @@ account assets:grodin:irag
 account assets:grodin:irap
 account assets:grodin:rothg
 account assets:grodin:rothp
-account assets:grodin:ukpensg
-account assets:grodin:ukpensp
-account assets:closebrothers:12532369
+account assets:ukpensg
+account assets:ukpensp
+account assets:closebrothers
 account assets:hsbc
+account assets:pnb
+account assets:realestate
 
 
 account equity
@@ -57,6 +59,9 @@ account revenue:socsecp  ;
 account revenue:socsecg
 account revenue:tkpensp
 account revenue:tkpensg
+account revenue:ukpensp
+account revenue:ukpensg
+account revenue:interest
 
 
 account expense
@@ -69,27 +74,35 @@ include socsecp.j
 include socsecg.j
 include tkpensp.j
 include tkpensg.j
+include ukpensp.j
+include ukpensg.j
+
+include irag.j
+include irap.j
+
+include realestate.j
+include HL.j
+include wf.j
+include closebrothers.j
+
+
+
 include expenses.j
 
 2026-06-01  Init
     assets:cash			   -£30000
     equity
 
-
 2026-06-01  Init
-    assets:closebrothers:12532369   -£117000
+    assets:pnb			   -₹10000000
     equity
+
+
+
+
 
 2026-06-01  Init
     assets:grodin:tod		    -$1218000
-    equity
-
-2026-06-01  Init
-    assets:grodin:irag		    -$708000
-    equity
-
-2026-06-01  Init
-    assets:grodin:irap		    -$578000
     equity
 
 2026-06-01  Init
@@ -99,6 +112,18 @@ include expenses.j
 2026-06-01  Init
     assets:grodin:rothp		    -$62000
     equity
+
+2026-06-01  Wages p 
+    revenue:wagesp		    £38400
+    assets:cash
+
+2026-06-01  Wages g
+    revenue:wagesg		    £98400
+    assets:cash
+
+2027-03-01  Wages g
+    revenue:wagesg		    £74600
+    assets:cash
 
 
 
