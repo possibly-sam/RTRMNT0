@@ -66,6 +66,10 @@ account expense:travel
 account expense:misc
 
 include socsecp.j
+include socsecg.j
+include tkpensp.j
+include tkpensg.j
+include expenses.j
 
 2026-06-01  Init
     assets:cash			   -£30000
@@ -81,19 +85,19 @@ include socsecp.j
     equity
 
 2026-06-01  Init
-    assets:grodin:gira		    -$708000
+    assets:grodin:irag		    -$708000
     equity
 
 2026-06-01  Init
-    assets:grodin:pira		    -$578000
+    assets:grodin:irap		    -$578000
     equity
 
 2026-06-01  Init
-    assets:grodin:groth		    -$332000
+    assets:grodin:rothg		    -$332000
     equity
 
 2026-06-01  Init
-    assets:grodin:proth		    -$62000
+    assets:grodin:rothp		    -$62000
     equity
 
 

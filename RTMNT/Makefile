@@ -7,7 +7,13 @@ SOURCE = RTMNT.cpp
 YEAR ?=2060
 CASH ?=cash
 
-all:
+help:
+	@echo bal YEAR=2034            :  balance in year 2034
+	@echo cash YEAR=2034 CASH=cash :  cash balance in year 2034 in $
+	@echo ccash                    :  cash balance year over year to csv file
+
+
+all:  $(TARGET)
 
 $(TARGET): $(SOURCE)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCE)
@@ -27,7 +33,11 @@ bal:
 
 
 cash:  
-	hledger -f data_/RTMNT.j balance $(CASH)  --begin=2026-06-01 --end=$(YEAR)-12-25 -X $
+	hledger -f data_/RTMNT.j balance $(CASH)  --begin=2026-06-01 --end=$(YEAR)-12-25  --strict   -X $
 
+
+ccash:
+	./cash.sh
+	Rscript cash-plot.R
 
 # hledger -f data_/RTMNT.j balance $(CASH) date:2026-01-01..$(YEAR)-12-25 -X $ 
