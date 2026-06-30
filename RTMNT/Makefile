@@ -10,9 +10,10 @@ BEGIN ?=2026
 END   ?=2060
 
 help:
-	@echo bal YEAR=2034            :  balance in year 2034
-	@echo cash YEAR=2034 CASH=cash :  cash balance in year 2034 in $
+	@echo bal YEAR=2060 BEGIN=2026         :  balance in year 2034
+	@echo cash YEAR=2060 CASH=cash BEGIN=2026:  cash balance in year 2034 in $
 	@echo ccash                    :  cash balance year over year to csv file
+	@echo start year is 2026 unless overridden with BEGIN
 
 
 all:  $(TARGET)
@@ -41,6 +42,7 @@ cash:
 ccash:
 	./cash.sh
 	Rscript cash-plot.R
+	cp cash_balance_plot.png ../../tycho-station/pix_/
 
 # hledger -f data_/RTMNT.j balance $(CASH) date:2026-01-01..$(YEAR)-12-25 -X $ 
 

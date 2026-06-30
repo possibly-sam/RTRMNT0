@@ -2,27 +2,27 @@
 # pma Grodin IRA
 # assume $ 573 k in 2026
 
-
-
-
+# we can take 81.7 k$ annually and even with 
+# soc sec tk uk pens stay under the key  130 $k tax exclusion
+ 
 2026-06-01  Init
     assets:grodin:irap   -$573000
     equity
 
 2027-06-01  In
-    assets:grodin:irap   $100000
-    assets:cash
-
-2028-06-01  In
     assets:grodin:irap   $130000
     assets:cash
 
+2028-06-01  In
+    assets:grodin:irap   $105000
+    assets:cash
+
 2029-06-01  In
-    assets:grodin:irap   $100000
+    assets:grodin:irap   $80000
     assets:cash
 
 2030-06-01  In
-    assets:grodin:irap   $0
+    assets:grodin:irap   $80000
     assets:cash
 
 2031-06-01  In

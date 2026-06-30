@@ -1,6 +1,8 @@
 
-# gaya social security
+# gaya tk pension
 # assume 2650/ per month starting at 62
+
+go ahead and start early at 60/59.5
 
 2026-06-01  In
     revenue:tkpensg   $0
@@ -19,11 +21,11 @@
     assets:cash
 
 2030-06-01  In
-    revenue:tkpensg   $0
+    revenue:tkpensg   $2250
     assets:cash
 
 2031-06-01  In
-    revenue:tkpensg   $0
+    revenue:tkpensg   $4500
     assets:cash
 
 2032-06-01  In

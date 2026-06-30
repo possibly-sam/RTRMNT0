@@ -23,47 +23,47 @@
     assets:cash
 
 2030-06-01  In
-    assets:grodin:irag   $100000
+    assets:grodin:irag   $50000
     assets:cash
 
 2031-06-01  In
-    assets:grodin:irag   $100000
+    assets:grodin:irag   $50000
     assets:cash
 
 2032-06-01  In
-    assets:grodin:irag   $100000
+    assets:grodin:irag   $50000
     assets:cash
 
 2033-06-01  In
-    assets:grodin:irag   $100000
+    assets:grodin:irag   $50000
     assets:cash
 
 2034-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2035-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2036-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2037-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2038-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2039-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2040-06-01  In
-    assets:grodin:irag   $0
+    assets:grodin:irag   $50000
     assets:cash
 
 2041-06-01  In

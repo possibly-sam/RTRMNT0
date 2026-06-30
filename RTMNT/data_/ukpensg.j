@@ -2,6 +2,9 @@
 # gaya uk pension  
 # assume £2200 monthly  starting at 62
 
+# acturally this a can start @ 55 so we do
+
+# (replace-string "tkpensg" "ukpensg")
 
 
 
