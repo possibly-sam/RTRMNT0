@@ -126,15 +126,5 @@ include expenses.j
     assets:cash
 
 
-# SOME EXCEPTIONS
-
-2027-03-01  take 30k out of irap to get through 2027
-    assets:grodin:irap		    $30000
-    assets:cash
-
-# 90k brings tot to 130, under the exclusion limit
-2028-03-01  take 90k out of irap to get through 2028
-    assets:grodin:irap		    $90000
-    assets:cash
 
 
